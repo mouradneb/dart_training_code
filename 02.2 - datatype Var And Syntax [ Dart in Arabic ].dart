@@ -5,17 +5,19 @@
 // map
 // list
 void data_type_syntax_02() {
-  // datatype variable = value
+  // pattern : datatype variable = value ;
 
   // type is String not string
   String x = "nebhi"; // comment to show error declaration
   print(x);
+
   x = "mourad";
-  print(x);
+  print(x); // x will get new value
 
   int a = 4;
   // int a = 6; error already declared
   print(a);
+
   double b = 10.6;
   print(b);
   // a = b; error

@@ -1,13 +1,15 @@
 void final_const_operator_03() {
-  const name = "nebhi"; // utility server name, port etc ...
+  const name =
+      "nebhi"; // constants are used to declare server name, port etc ...
   // name = "mourad"; error
   final subname = "mourad";
-  // subname = "nebhi"; error set once
+  // subname = "nebhi"; variables delared as const or final can't be modified, error set once
 
-  /*const full_name;    is wrong
-  full_name = "nebhi mourad";*/
+  /*const full_name;    
+  full_name = "nebhi mourad"; is wrong*/
   final full_name;
-  full_name = "nebhi mourad";
+  full_name =
+      "nebhi mourad"; //correct, however, const must get value at declaration, but final could be declared, after that value will be assigned
 
   // operator
   int a1 = 10;
@@ -30,11 +32,4 @@ void final_const_operator_03() {
   // decrement
   print(a1--);
   print(--a2);
-
-  // division
-  print(a2 / a1); // result 2
-
-  // modulo
-  print(a2 % a1); // modulo 0
-  print(4 % 3); // modulo 1
 }
