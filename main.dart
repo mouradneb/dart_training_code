@@ -6,7 +6,10 @@ import '05.5  - datatype.dart';
 import '05.5 - Assignment Operators [  Dart In Arabic ].dart';
 import '06.6 - Arithmetic Operators.dart';
 import '06.6 - Logical Operators [Dart In Arabic].dart';
-import '07.7 -    if statement [ Dart In Arabic].dart';
+import '07.7 - if statement [ Dart In Arabic].dart';
+import '07.7 - quality and Relational Operators.dart';
+import '08.8   for loop [ dart in Arabic ].dart';
+import '08.8 - Type test Operators And Assignment Operators.dart';
 
 void main() {
   // print("Hello World");
@@ -18,5 +21,8 @@ void main() {
   // assignment_operators_05();
   // arithmetic_operators_06();
   // logical_operators_06();
-  if_statement_07();
+  // if_statement_07();
+  // quality_relational_operators_07();
+  // type_test_operators_assigment_08();
+  for_loop_08();
 }
