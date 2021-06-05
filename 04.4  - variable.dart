@@ -1,0 +1,1 @@
+void variable_04() {}
