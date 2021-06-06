@@ -10,6 +10,14 @@ import '07.7 - if statement [ Dart In Arabic].dart';
 import '07.7 - quality and Relational Operators.dart';
 import '08.8   for loop [ dart in Arabic ].dart';
 import '08.8 - Type test Operators And Assignment Operators.dart';
+import '09.9   while loop [ dart in Arabic ].dart';
+import '12.12  -   switch case.dart';
+import '15.15 -  Do While.dart';
+import '16.16 - break.dart';
+import '17.17 - continue.dart';
+import '18.18 - number.dart';
+import '19.19   - String Method.dart';
+import '27.27 -  dyanmic varibles.dart';
 
 void main() {
   // print("Hello World");
@@ -24,5 +32,13 @@ void main() {
   // if_statement_07();
   // quality_relational_operators_07();
   // type_test_operators_assigment_08();
-  for_loop_08();
+  // for_loop_08();
+  // while_loop_09();
+  // switch_case_12();
+  // do_while_15();
+  // break_16();
+  // continue_17();
+  // number_18();
+  // string_19();
+  dynamic_variables_27();
 }
