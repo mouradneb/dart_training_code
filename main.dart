@@ -10,6 +10,8 @@ import '07.7 - if statement [ Dart In Arabic].dart';
 import '07.7 - quality and Relational Operators.dart';
 import '08.8   for loop [ dart in Arabic ].dart';
 import '08.8 - Type test Operators And Assignment Operators.dart';
+import '20-21-22-23-24 List.dart';
+import '25- map.dart';
 
 void main() {
   // print("Hello World");
@@ -24,5 +26,7 @@ void main() {
   // if_statement_07();
   // quality_relational_operators_07();
   // type_test_operators_assigment_08();
-  for_loop_08();
+  // for_loop_08();
+  // list_20_21_22_23_24();
+  map_25();
 }
