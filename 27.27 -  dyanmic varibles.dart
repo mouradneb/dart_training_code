@@ -3,4 +3,7 @@ dynamic_variables_27() {
   print(v);
   //  v = "2"; error
   print(v is int);
+  dynamic v2 = 2;
+  v2 = "ok";
+  print(v2);
 }

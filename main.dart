@@ -20,7 +20,12 @@ import '17.17 - continue.dart';
 import '18.18 - number.dart';
 import '19.19   - String Method.dart';
 import '27.27 -  dyanmic varibles.dart';
+import '30 -Convert between List Map Set.dart';
+import '31. funtion.dart';
+import '32. function types.dart';
+import '33. function scope.dart';
 
+// void main predefined function
 void main() {
   // print("Hello World");
   // data_type_syntax_02();
@@ -36,7 +41,7 @@ void main() {
   // type_test_operators_assigment_08();
   // for_loop_08();
   // list_20_21_22_23_24();
-  map_25();
+  //map_25();
   // while_loop_09();
   // switch_case_12();
   // do_while_15();
@@ -44,5 +49,15 @@ void main() {
   // continue_17();
   // number_18();
   // string_19();
-  dynamic_variables_27();
+  // dynamic_variables_27();
+  // convert_between_list_map_set_30();
+  // function_31(null);
+
+  // function_types_32_void();
+  // print(function_types_32_return(10, 20));
+
+  //function_scope_33();
+  //var b = function_scope_33;
+  //b();
+  function_scope_33_1();
 }
